@@ -1,19 +1,4 @@
 <?php
-/*if (isset($_POST['submit'])) {
-  $val = array('val1' => $_POST['testval1'], 'val2' => $_POST['testval2']);
-  print_r($val);
-  if ((in_array('NULL', $val)) || (in_array('NULL', $val))) {
-      echo "Got NULL";
-  }
-}
-?>
-
-<form action="" method="post">
-  <input type="text" name="testval1"/>
-  <input type="text" name="testval2"/>
-  <button type="submit" name="submit">Test</button>
-</form>
-*/
 function exchangeprice($value, $curr = 'USD', $action = 'buycn', $inverted = false) {
   $httpcode = 0;
   while ($httpcode != 200){
