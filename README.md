@@ -14,11 +14,11 @@ Parameter:
 - $curr (required) - string
   Currency code.
 - $action (optional) - string
- "sellttod": Sell TT / OD
- "buytt": Buy TT
- "buyod": Buy OD
- "sellcn": Currency Notes (Sell)
- "buycn": Currency Notes (Buy)
+  - "sellttod": Sell TT / OD
+  - "buytt": Buy TT
+  - "buyod": Buy OD
+  - "sellcn": Currency Notes (Sell)
+  - "buycn": Currency Notes (Buy)
 - $inverted (optional) - boolean
  MYR to XXX: true
  XXX to MYR: false
