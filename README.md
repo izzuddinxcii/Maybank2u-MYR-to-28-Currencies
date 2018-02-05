@@ -20,8 +20,8 @@ Parameter:
   - "sellcn": Currency Notes (Sell)
   - "buycn": Currency Notes (Buy)
 - $inverted (optional) - boolean
- MYR to XXX: true
- XXX to MYR: false
+  - MYR to XXX: true
+  - XXX to MYR: false
 
 Example:
 <code>exchangeprice(640.00, 'USD', 'buycn', true);</code>
