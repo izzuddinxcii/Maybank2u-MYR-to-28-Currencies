@@ -5,7 +5,8 @@ function exchangeprice($value, $curr = 'USD', $action = 'buycn', $inverted = fal
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, 'http://www.maybank2u.com.my/mbb_info/m2u/M2UCurrencyConverter.do');
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-    curl_setopt($ch, CURLOPT_TIMEOUT,10);
+    curl_setopt($ch, CURLOPT_TIMEOUT, 10);
+    curl_setopt($ch, CURLOPT_IPRESOLVE, CURL_IPRESOLVE_V4);
     $response = curl_exec($ch);
     $httpcode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
     curl_close($ch);
