@@ -1,4 +1,4 @@
-# Maybank2u-MYR-to-28-Currencies
+# Maybank2u MYR Exchange to 28 Currencies
 
 Money exchange from MYR to any 28 currencies or vice versa.
 http://www.maybank2u.com.my/mbb_info/m2u/M2UCurrencyConverter.do
