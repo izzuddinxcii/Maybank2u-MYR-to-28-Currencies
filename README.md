@@ -6,19 +6,24 @@ http://www.maybank2u.com.my/mbb_info/m2u/M2UCurrencyConverter.do
 Please refer on the website for 28 currencies code.
 
 Usage:
-exchangeprice($value, $curr = 'USD', $action = 'buycn', $inverted = false);
+exchangeprice($value, $curr, $action, $inverted);
 
-$value - Value to be exchange
-$curr - Currency code
-$action -
+Parameter:
+$value (required) - string
+  Value to be exchange.
+$curr (required) - string
+  Currency code.
+$action (optional) - string
  "sellttod": Sell TT / OD
  "buytt": Buy TT
  "buyod": Buy OD
  "sellcn": Currency Notes (Sell)
  "buycn": Currency Notes (Buy)
-$inverted: Bool (true / false)
- MYR to XXX : true
- XXX to MYR : false
+$inverted (optional) - boolean
+ MYR to XXX: true
+ XXX to MYR: false
 
+Example:
+exchangeprice(640.00, 'USD', 'buycn', true);
 
 Use at ur own risk :3
